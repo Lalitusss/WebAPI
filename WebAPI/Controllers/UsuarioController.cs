@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Text.RegularExpressions;
 using WebAPI.Context;
 using WebAPI.Entity;
@@ -23,15 +24,19 @@ namespace WebAPI.Controllers
             return context.Usuario.ToList().Where(x => x.Id <= 100);
         }
 
-        [HttpGet]
-        [Route("{id}")]
-        public ActionResult<Usuario> Get(int Id)
+        // GET: api/products/5
+        [HttpGet("{id}")]
+        public ActionResult<Usuario> GetUsuario(int id)
         {
-            var usuario = context.Usuario.Find(Id);
+            var usuario = context.Usuario.Find(id);
+
             if (usuario == null)
+            {
                 return NotFound();
+            }
 
             return usuario;
         }
+
     }
 }

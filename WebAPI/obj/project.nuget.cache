@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mz0Oyw7NRH1ItJ8IVEgXtxScqeb/2PdI4yy7swN7UJOns1SL+CmHQLANx+875TiRcZznQwi4HGvbH7yEvOt0eA==",
+  "dgSpecHash": "0UO+hJ7FotxzvJDA5cRtXHEF4vP7gcVP1c+7Wav3xp2rwE2K6vph12QqYO162h2UXew3oVBvjqDzYcm+qjo+Gw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\etamayo.BITSADOMI\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Sources\\WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etamayo.BITSADOMI\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\etamayo.BITSADOMI\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
